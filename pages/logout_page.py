@@ -10,3 +10,4 @@ class LogoutPage(BasePage):
     def logout_page(self):
         self.click(self.button)
         self.click(self.logout)
+        print("hello")
